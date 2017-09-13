@@ -1,0 +1,8 @@
+#!/bin/bash
+word=$1
+[[ $1 == "" ]] && word="debug"
+path=`pwd`
+echo $word
+git add $path/*
+git commit -m  $word
+git push

@@ -1,0 +1,15 @@
+[alias]
+	br = branch
+	st = status
+	co = checkout
+	ci = commit -m 
+	ps = push
+	pl = pull
+	di = diff
+	b = branch
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+[user]
+	email = shenwenlong@yunzujia.com
+	name = shenwenlong
+[pull]
+	rebase = true
