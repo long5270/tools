@@ -6,3 +6,7 @@ echo $word
 git add $path/*
 git commit -m  $word
 git push
+if [ $? != 0 ]
+then
+    git pull && git push
+fi

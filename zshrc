@@ -94,3 +94,4 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 function psk(){
     ps -ef|grep $1|awk '{print $2}'|xargs kill -9
 }
+alias psg="ps aux |grep "
