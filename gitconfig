@@ -9,7 +9,7 @@
 	b = branch
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
 [user]
-	email = shenwenlong@yunzujia.com
+	email = dalong5270@163.com
 	name = shenwenlong
 [pull]
 	rebase = true
