@@ -2,6 +2,7 @@
 ### dogit 一键提交所有修改  
 - 默认commit信息为debug
 - `dogit fix` 此时commit信息就是fix  
+- `dogit fix bug` 此时commit信息就是fix bug 
 - 如果push失败会自动拉取新代码再次尝试push  
 
 ### pip.config里配置了豆瓣源  
