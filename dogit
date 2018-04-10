@@ -1,6 +1,6 @@
 #!/bin/bash
-word=$1
-[[ $1 == "" ]] && word="debug"
+word=$*
+[[ $* == "" ]] && word="debug"
 path=`pwd`
 echo $word
 git add $path/*
