@@ -95,3 +95,11 @@ function psk(){
     ps -ef|grep $1|awk '{print $2}'|xargs kill -9
 }
 alias psg="ps aux |grep "
+# 命行计算器 ex: calc 1 /2 +3 x 4 - 5
+function calc(){
+    a=$*
+    a=${a//x/\*}
+    a=${a//X/\*}
+    echo $a
+    echo `python -c "print $a"`
+}
