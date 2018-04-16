@@ -104,4 +104,4 @@ function calc(){
     echo `python -c "print($a)"`
 }
 alias djshell="python manage.py shell -i ipython"
-alias cat="ccat "
+alias cat="ccat"
